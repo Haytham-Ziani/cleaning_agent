@@ -7,7 +7,6 @@ class AgentAction(Enum):
 	MOVE_RIGHT = 1
 	MOVE_LEFT = -1
 	TURN_OFF = auto()
-	TURN_IDLE = auto()
 
 class ActionCost(Enum):
 	MOVING = 2
